@@ -1,0 +1,32 @@
+# Ignore everything
+*
+
+# But not these files
+!.gitignore
+!.myfuncs
+
+# Don't ignore directories
+!*/
+
+# Don't ignore dummy files
+!**/dummy.md
+
+# Don't ignore .c files
+!**/*.c
+# Don't ignore .h files
+!**/*.h
+# Don't ignore makefiles
+!**/makefile
+#  Don't ignore .asm files
+!**/*.asm
+# Don't ignore .py files
+!**/*.py
+
+# Don't ignore .md files
+!**/*.md
+# Don't ignore .sh files
+!**/*.sh
+
+#ignore my_env
+**/my_env/
+**/env/
